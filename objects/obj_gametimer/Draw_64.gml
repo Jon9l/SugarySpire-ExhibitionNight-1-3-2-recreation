@@ -1,4 +1,4 @@
-if (!global.option_timer_type || room == rm_disclaimer || room == rm_initializer || room == rm_introVideo || room == rm_preinitializer || room == rm_startupLogo || room == rm_mainmenu || (instance_exists(obj_option) || instance_exists(obj_option_keyconfig)) || (instance_exists(obj_inputController) && (obj_inputController.showtext || obj_inputController.disconnectScreen)))
+if (!global.option_timer_type || room == rm_disclaimer || room == rm_initializer || room == rm_introVideo || room == rm_preinitializer || room == rm_startupLogo || room == rm_mainmenu || instance_exists(obj_option_keyconfig) || (!global.option_speedrun_timer && instance_exists(obj_inputController) && (obj_inputController.showtext || obj_inputController.disconnectScreen)))
 	exit
 
 var timer_arr = []

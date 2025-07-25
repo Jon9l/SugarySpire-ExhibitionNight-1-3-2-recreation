@@ -645,3 +645,4 @@
 # Debug stuff
 #-----------------------#
 "loadingSprites": "ЗАГРУЖАЕМ СПРАЙТЫ..."
+"loadingGeneric": "ЗАГРУЗКА..."

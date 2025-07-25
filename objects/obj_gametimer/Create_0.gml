@@ -83,16 +83,17 @@ makeString = function(arg0, arg1, arg2)
 {
 	var s_str = ""
 	var m_str = ""
-	var dsec_str = string_format(arg2 / 60, 1, 3)
+	var dsec_prec = global.option_speedrun_timer ? 3 : 2;
+	var dsec_str = string_format(arg2 / 60, 1, dsec_prec)
 	dsec_str = string_delete(dsec_str, 1, 2)
 	
-	while (string_length(dsec_str) != 3)
+	while (string_length(dsec_str) != dsec_prec)
 	{
 		var len = string_length(dsec_str)
 		
-		if (len < 3)
+		if (len < dsec_prec)
 			dsec_str += "0"
-		else if (len > 3)
+		else if (len > dsec_prec)
 			dsec_str = string_delete(dsec_str, string_length(dsec_str), 1)
 	}
 	
