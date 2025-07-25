@@ -1,4 +1,4 @@
-This repository uses [1.3 decomp](https://github.com/azphina/SugarySpire-ExhibitionNight) as a basis. It is not a 100% recreation and has a few additional bug fixes.
+This repository uses [Azphina's decomp](https://github.com/azphina/SugarySpire-ExhibitionNight) as a basis. It is not a 100% recreation and has a few additional bug fixes.
 
 # Original description
 
