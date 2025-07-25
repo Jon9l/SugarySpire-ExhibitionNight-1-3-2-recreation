@@ -1,5 +1,7 @@
 This repository uses [Azphina's decomp](https://github.com/azphina/SugarySpire-ExhibitionNight) as a basis. It is not a 100% recreation and has a few additional bug fixes.
 
+(I made this because of my friend so it's rushed ye ye)
+
 # Original description
 
 # Sugary Spire: Exhibition Night (The Reproduction)
