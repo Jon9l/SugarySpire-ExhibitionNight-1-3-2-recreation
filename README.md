@@ -1,3 +1,7 @@
+This repository uses [1.3 decomp](https://github.com/azphina/SugarySpire-ExhibitionNight) as a basis. It is not a 100% recreation and has a few additional bug fixes.
+
+# Original description
+
 # Sugary Spire: Exhibition Night (The Reproduction)
 This repository hosts a work-in-progress decompilation of the "Sugary Spire: Exhibition Night" demo. It is close to 100% accurate to the original demo.
 
